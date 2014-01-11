@@ -5,7 +5,7 @@ setup(
     name="gevent-actors",
     version="0.1",
     description="basic actors using gevent and kombu for communication",
-    modules=['actors'],
+    modules=['actor'],
     install_requires=[
         "kombu",
         "gevent",
